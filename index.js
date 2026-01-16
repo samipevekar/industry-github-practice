@@ -1,12 +1,13 @@
 function add(a, b) {
-  return a - b; // BUG: wrong operation
+  return a + b;
 }
 
 function isEven(num) {
-  if (num % 2 === 1) {
-    return true; // BUG
-  }
-  return false;
+  return num % 2 === 0;
 }
 
-module.exports = { add, isEven };
+function multiply(a, b) {
+  return a * b;
+}
+
+module.exports = { add, isEven, multiply };
