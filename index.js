@@ -7,7 +7,7 @@ function isEven(num) {
 }
 
 function multiply(a, b) {
-  return a / b;
+  return a * b;
 }
 
 module.exports = { add, isEven, multiply };
