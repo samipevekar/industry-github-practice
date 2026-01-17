@@ -1,5 +1,6 @@
 function add(a, b) {
-  return Number(a) + Number(b);
+  let num = a+b
+  return num;
 }
 
 function isEven(num) {
